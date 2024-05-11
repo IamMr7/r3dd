@@ -98,7 +98,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "~  لاتغيرها أبدا .",
-        "value": "لينك جيثهاب",
+        "value": "https://github.com/IamMr7/r3dd.git",
         "required": true
       }
     },
