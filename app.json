@@ -1,0 +1,117 @@
+{
+    "name": "احدث نسخة من سورس رعـــد",
+    "description": " اقوي منصه لتنصيب بوت ميوزك باحدث المكاتب.",
+    "logo": "https://te.legra.ph/file/b4e01d217d9dfcd10f8c0.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "VenomX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "~ اكتب الايبي ايدي .",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "~ اكتب الايبي هاش .",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "~ اكتب توكن البوت .",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "~ اتركها كما هي .",
+        "value": "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "~ اكتب ايدي المالك او اتركها كما هي .",
+        "value": "6890685964",
+        "required": true
+        
+      },
+      "YOUTUBE_IMG_URL": {
+        "description": "~  ضع رابط صورة التشغيل .",
+        "value": "https://graph.org/file/ae56476285eaa4b8be270.jpg",
+        "required": true
+        
+      },
+      "SUPPORT_CHAT": {
+        "description": "~  ضع قناة الدعم .",
+        "value": "https://t.me/F_b_i_u",
+        "required": true
+        
+      },
+      "Muntazer": {
+        "description": "~  ضع قناة الاشتراك الاجباري ( لاتنسى رفع البوت مشرف في القناة ) .",
+        "value": "rr_yn7",
+        "required": true
+        
+      },
+      "BOT_IMAGE": {
+        "description": "~  ضع صورة كليشة الاشتراك الاجباري ، يمكنك تجاهل هذا الحقل .",
+        "value": "https://te.legra.ph/file/4807752a011965b771900.jpg",
+        "required": false
+        
+      },
+      "START_IMG_URL": {
+        "description": "~  ضع صورة كليشة  الستارت .",
+        "value": "https://te.legra.ph/file/303a0e1d707b04a28a5ad.jpg",
+        "required": false
+        
+      },
+      "STRING_SESSION": {
+        "description": "~قم بـــوضع كـــود البـــايوجرام هـــنا .",
+        "value": "",
+        "required": true
+     },
+      "HEROKU_API_KEY": {
+        "description": "~ ايبي حسابك في هيروكو .",
+        "value": "",
+        "required": true
+     },
+      "HEROKU_APP_NAME": {
+        "description": "~ اسم تطبيقك في الاعلى .",
+        "value": "",
+        "required": true
+
+     },
+      "UPSTREAM_BRANCH": {
+        "description": "~ اتركها كما هي .",
+        "value": "main",
+        "required": true
+          
+     },
+      "LOGGER_ID": {
+        "description": "~ اكتب ايدي القناة حتى يتم وصول احداث البوت اليك .",
+        "value": "-100",
+        "required": true
+        
+      },
+      "UPSTREAM_REPO": {
+        "description": "~  لاتغيرها أبدا .",
+        "value": "لينك جيثهاب",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+}
